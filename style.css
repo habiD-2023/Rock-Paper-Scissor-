@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: #03071e;
+  color: #ffba08;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+}
+
+.choice:hover {
+  opacity: 0.5;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 12px;
+  margin-top: 5rem;
+}
